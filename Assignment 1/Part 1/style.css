@@ -1,0 +1,40 @@
+/* Background color around the wrapper element*/
+body{
+    background-color: black;
+}
+/* styling wrapper class*/
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(151, 150, 147);
+    margin: 0 auto;
+    width: 100vh;
+}
+
+/*centering/  resizing wrapper image */
+ .wrapper section img {
+    display: block;
+    max-width: 400px;
+    max-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+/*aligning and coloring all text elements except for the paragraph element*/
+h1, h2, h3, ul, p2 {
+    text-align: center;
+    color: #333;
+    list-style: none;
+}
+/* simple alignment */
+p{
+    text-align: center;
+}
+
+/* only odd list items bolded */
+ li:nth-child(odd){
+    font-weight: bolder;
+}
